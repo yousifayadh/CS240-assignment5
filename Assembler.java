@@ -38,7 +38,7 @@ public class Assembler
     {
         if (args.length == 0)
         {
-            System.out.println("Usage: java Assembler file.asm");
+            System.out.println("No file provided");
             return;
         }
         String file = args[0];

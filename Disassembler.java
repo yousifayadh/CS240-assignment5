@@ -22,7 +22,7 @@ public class Disassembler
     {
         if (args.length == 0)
         {
-            System.out.println("Usage: java Disassembler file.mhc-bin");
+            System.out.println("no file provided");
             return;
         }
         String file = args[0];
